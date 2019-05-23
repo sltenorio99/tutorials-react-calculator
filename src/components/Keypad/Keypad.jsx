@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "./Keypad.css";
 
 const Keypad = ({
   callOperator,
@@ -7,7 +8,19 @@ const Keypad = ({
   operators,
   setOperator,
   updateDisplay
-}) => <div className="keypad-container" />;
+}) => {
+  const numberKeys = numbers.map(number => <p key={numbers}>{number}</p>);
+  const operatorKeys = operators.map(operator => (
+    <p key={operator}>{operator}</p>
+  ));
+
+  return (
+    <div className="keypad-container">
+      <div className="numbers-container">{numberKeys}</div>
+      <div className="operators-container">{operatorKeys}</div>
+    </div>
+  );
+};
 
 Keypad.propTypes = {
   callOperator: PropTypes.func.isRequired,

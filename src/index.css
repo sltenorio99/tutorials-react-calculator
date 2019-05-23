@@ -15,6 +15,10 @@ app variables
   --display-text-size: 4em;
   --display-text-weight: 400;
 
+  /* keypad dimensions */
+  --keypad-height: 72%;
+  --keyapd-width: 96%;
+
   /* display dimensions */
   --display-height: 24%;
   --display-width: 92%;
