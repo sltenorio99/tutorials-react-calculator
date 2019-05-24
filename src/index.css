@@ -4,11 +4,22 @@ app variables
 
 :root {
   /* background colors */
+  --action-key-color: #545454;
+  --action-key-color-hover: #2a2a2a;
   --calculator-background-color: #696969;
   --display-background-color: #1d1f1f;
+  --number-key-color: #696969;
+  --number-key-color-hover: #3f3f3f;
+  --submit-key-color: #d18800;
+  --submit-key-color-hover: #aa6e00;
 
   /* font */
   --main-font: "Orbitron", sans-serif;
+
+  /***** key variables *****/
+  --key-text-color: #d3d3d3;
+  --key-text-size: 3em;
+  --key-text-weight: 700;
 
   /***** display variables *****/
   --display-text-color: #23e000;
@@ -36,6 +47,7 @@ media query for tablet or smaller screen
   :root {
     /* font sizes */
     --display-text-size: 10em;
+    --key-text-size: 6em;
 
     /* calculator dimensions */
     --calculator-height: 100%;

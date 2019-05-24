@@ -34,4 +34,9 @@ describe("Keypad", () => {
     wrapper.setProps({ operators: ["+", "-", "*", "/"] });
     expect(wrapper.find(".operators-container").text()).toEqual("+-*/");
   });
+
+  // Test whether the keypad renders a <Key/> component
+  it("should render an instance of the Key component", () => {
+    expect(wrapper.find("Key").length).toEqual(1);
+  });
 });
