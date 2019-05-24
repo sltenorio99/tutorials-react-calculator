@@ -19,7 +19,7 @@ describe("Keypad", () => {
   });
   
   // Generic tests first
-  it('should rencer correctly', () => expect(wrapper).toMatchSnapshot());
+  it('should render correctly', () => expect(wrapper).toMatchSnapshot());
 
   // Test whether the keypad renders the correct # of <div />s
   it("should render 4 <div />s", () => {
