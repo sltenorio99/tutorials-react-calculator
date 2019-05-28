@@ -1,6 +1,8 @@
 # TDD React
 
 ## About
+Originally hosted on [Gitlab](https://gitlab.com/sltenorio99_tutorials/react-calculator)
+
 Based off of tutorial: https://testdriven.io/blog/tdd-with-react-jest-and-enzyme-part-one/
 
 Original Repository (init branch): https://github.com/calebpollman/react-calculator
